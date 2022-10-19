@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="public/logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sette Enterprise</title>
+  </head>
+  <body class="bg-newGray-900 text-white">
+    <header class="py-8 flex justify-center items-center gap-2">
+      <img src="logo.svg" alt="Sette Enterprise" height="156" width="156" />
+      <h1 class="text-3xl font-bold">Sette Enterprise</h1>
+    </header>
+    <div class="flex justify-center">
+      <form
+        class="flex flex-col justify-center items-baseline gap-2 outline-none"
+        action=""
+      >
+        <label for="Email" class="text-xs text-newGray-200">Email Adress</label>
+        <input
+          type="text"
+          placeholder="sette@example.com"
+          class="py-2 px-2 rounded bg-newGray-800 h-10 w-96 
+          focus:outline-none focus:ring   focus:ring-offset-newGray-900  focus:ring-offset-2
+          placeholder-gray-100 placeholder-opacity-50 text-sm"
+        />
+
+        <label for="Email" class="text-xs text-newGray-200">Password </label>
+        <input type="password" class="py-2 px-2 rounded bg-newGray-800 w-96
+        focus:outline-none focus:ring   focus:ring-offset-newGray-900  focus:ring-offset-2 " />
+
+        <div class="flex justify-center items-center gap-2 mt-4 ">
+          <input
+            type="checkbox"
+            name="remember"
+            id="lembrar"
+            class="w-6 h-6 rounded "
+          />
+          <label for="remember" class="text-xs text-newGray-200"
+            >Remember me</label
+          >
+        </div>
+        <button
+          type="submit"
+          class="mt-5 py-2 px-2 font-bold rounded bg-gradient-to-bl from-newBlue-700 to-purple-900 w-96"
+        >
+          Log in
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
